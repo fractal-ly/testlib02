@@ -12,6 +12,7 @@
     "@types/node": "^18.0.3",
     "@typescript-eslint/eslint-plugin": "^5.30.5",
     "@typescript-eslint/parser": "^5.30.5",
+    "auto-changelog": "^2.4.0",
     "babel-loader": "^8.2.5",
     "eslint": "^8.19.0",
     "jest": "^28.1.2",
@@ -34,6 +35,12 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/fractal-ly/testlib02/issues"
+  },
+  "git": {
+    "changelog": "npx auto-changelog --stdout --commit-limit false --unreleased --template https://raw.githubusercontent.com/release-it/release-it/master/templates/changelog-compact.hbs"
+  },
+  "hooks": {
+    "after:bump": "npx auto-changelog -p"
   },
   "publishConfig": {
     "access": "public",
