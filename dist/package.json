@@ -1,0 +1,28 @@
+{
+  "name": "@fractally/testlib02",
+  "version": "0.0.6",
+  "description": "Just a test",
+  "module": "lib/es6/index.js",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fractal-ly/testlib02.git"
+  },
+  "files": [
+    "lib",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "author": "Fractally",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fractal-ly/testlib02/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "homepage": "https://github.com/fractal-ly/testlib02#readme"
+}
