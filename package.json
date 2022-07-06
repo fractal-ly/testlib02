@@ -23,7 +23,7 @@
     "webpack-cli": "^4.10.0"
   },
   "name": "@fractally/testlib02",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Just a test",
   "main": "index.js",
   "repository": {
